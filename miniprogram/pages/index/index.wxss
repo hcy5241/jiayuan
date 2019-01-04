@@ -33,6 +33,22 @@ view.title{
 view.title text{
   margin-left: 4px;
 }
+.icons{
+  display: flex;
+  background-color: #b895a141;
+}
+.icon{
+  width: 25%;display: flex;flex-direction: column;/*按列显示*/
+  align-items: center;
+  padding: 4rpx;
+}
+.ico{
+  width: 120rpx;height: 120rpx;
+}
+.icon text{
+  font-size: 12px;text-align: left;
+  padding: 5px 0px 3px;
+}
 .flowers{
   display: flex;flex-wrap: wrap;/*自动换行*/
 }
@@ -45,4 +61,16 @@ view.title text{
 }
 .flower text{
 font-size: 10px;text-align: left;
+}
+.chanpin{
+  display: flex;padding-top: 3px;
+}
+.chanpin .img{
+  width:110px;height: 120px;
+}
+.chanpin .text{
+  padding-top: 20px;
+  display: flex;flex-direction: column;
+  padding-left: 10px;
+  text-align: left;
 }

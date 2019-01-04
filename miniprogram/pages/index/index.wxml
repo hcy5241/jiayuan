@@ -3,6 +3,8 @@
   autoplay="{{true}}"
   interval="{{3000}}"
   duration="{{500}}"
+  indicator-color="{{rgba(0, 0, 0, .3)}}"
+  indicator-active-color="#D9D919"
 >
 <!--图片轮播-->
 <swiper-item>
@@ -21,9 +23,29 @@
     <text class='cell-text'>2019年2月5日前预订，全场鲜花折上折</text>
   </view>
 </view>
+<!--一行四列LOGO-->
+<view class='icons'>
+  <view class='icon'>
+    <image class='ico' src='/images/meigui.png'></image>
+    <text>玫瑰系列</text>
+  </view>
+  <view class='icon'>
+    <image class='ico' src='/images/baihe.png'></image>
+    <text>百合系列</text>
+  </view>
+  <view class='icon'>
+    <image class='ico' src='/images/kangnx.png'></image>
+    <text>康乃馨系列</text>
+  </view>
+  <view class='icon'>
+    <image class='ico' src='/images/qita.png'></image>
+    <text>其他种类</text>
+  </view>
+
+</view>
 <view class='title'>
   <view class='title-line_y'></view>
-  <text>热销产品</text>
+  <text>热销花束</text>
 </view>
 <view class='flowers'>
   <view class='flower'>
@@ -40,5 +62,35 @@
     <image class='flo' src='http://img13.360buyimg.com/n0/g7/M03/0F/11/rBEHZVC0Q_YIAAAAAASJJC7ukwAAADCYwE-Ws8ABIk8515.jpg'></image>
     <text style='color:#9F5F9F'>【赤子之心，如歌如梦】</text>
     <text style='color:#FF00FF'>¥199.99</text>
+  </view>
+</view>
+<view class='title'>
+  <view class='title-line_y'></view>
+  <text>节日献礼</text>
+</view>
+<view class='chanpins'>
+  <view class='chanpin'>
+    <image class='img' src='http://img2.imgtn.bdimg.com/it/u=2919824555,3069937837&fm=26&gp=0.jpg'></image>
+    <view class='text'>
+      <text style='color:#B87333'>【终生守护，忠贞不渝】</text>
+      <text style='font-size:14px;color:#A8A8A8;padding-left:10px'>11朵百合+满天星+配草</text>
+      <text style='padding-left:10px'>¥499.99</text>
+    </view>
+  </view>
+    <view class='chanpin'>
+    <image class='img' src='http://img.11665.com/img2_p3/i1/50256336/TB2pw8EaK_yQeBjy0FlXXczrXXa_%21%2150256336.jpg'></image>
+    <view class='text'>
+      <text style='color:#B87333'>【沉默的爱，终有回响】</text>
+      <text style='font-size:14px;color:#A8A8A8;padding-left:10px'>11朵向日葵+配草</text>
+      <text style='padding-left:10px'>¥399.99</text>
+    </view>
+  </view>
+    <view class='chanpin'>
+    <image class='img' src='http://img13.360buyimg.com/n0/g7/M03/0F/11/rBEHZVC0Q_YIAAAAAASJJC7ukwAAADCYwE-Ws8ABIk8515.jpg'></image>
+    <view class='text'>
+      <text style='color:#B87333'>【赤子之心，如歌如梦】</text>
+      <text style='font-size:14px;color:#A8A8A8;padding-left:10px'>11朵康乃馨+3支百合+满天星+配草</text>
+      <text style='padding-left:10px'>¥199.99</text>
+    </view>
   </view>
 </view>
