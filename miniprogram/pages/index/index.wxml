@@ -1,0 +1,44 @@
+<swiper
+  indicator-dots="{{true}}"
+  autoplay="{{true}}"
+  interval="{{3000}}"
+  duration="{{500}}"
+>
+<!--图片轮播-->
+<swiper-item>
+  <image src="http://www.jiayuanhq.com/statics/webcss/images/20150818105038-1563146988.jpg" class="slide-image"/>
+</swiper-item>
+<swiper-item>
+  <image src="http://life.southmoney.com/xiaochangshi/UploadFiles_2492/201806/20180601135820930.png" class="slide-image"/>
+</swiper-item>
+<swiper-item>
+  <image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1546587123276&di=82093a9579bbe2dca85fbc18ed8a4c0f&imgtype=0&src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F0195c356bdd0c26ac7256cb0c8cebe.jpg" class="slide-image"/>
+</swiper-item>
+</swiper>
+<view class='cells'>
+  <view class='cell'>
+    <image src='/images/tongzhi.png' class='cell-icon'></image>
+    <text class='cell-text'>2019年2月5日前预订，全场鲜花折上折</text>
+  </view>
+</view>
+<view class='title'>
+  <view class='title-line_y'></view>
+  <text>热销产品</text>
+</view>
+<view class='flowers'>
+  <view class='flower'>
+    <image class='flo' src='http://img2.imgtn.bdimg.com/it/u=2919824555,3069937837&fm=26&gp=0.jpg'></image>
+    <text style='color:#9F5F9F'>【终生守护，忠贞不渝】</text>
+    <text style='color:#FF00FF'>¥499.99</text>
+  </view>
+  <view class='flower'>
+    <image class='flo' src='http://img.11665.com/img2_p3/i1/50256336/TB2pw8EaK_yQeBjy0FlXXczrXXa_%21%2150256336.jpg'></image>
+    <text style='color:#9F5F9F'>【沉默的爱，终有回响】</text>
+    <text style='color:#FF00FF'>¥399.99</text>
+  </view>
+  <view class='flower'>
+    <image class='flo' src='http://img13.360buyimg.com/n0/g7/M03/0F/11/rBEHZVC0Q_YIAAAAAASJJC7ukwAAADCYwE-Ws8ABIk8515.jpg'></image>
+    <text style='color:#9F5F9F'>【赤子之心，如歌如梦】</text>
+    <text style='color:#FF00FF'>¥199.99</text>
+  </view>
+</view>

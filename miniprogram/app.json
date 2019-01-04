@@ -1,12 +1,29 @@
 {
   "pages": [
-    "pages/index/index"
+    "pages/index/index",
+    "pages/dingdan/index"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#F6F6F6",
-    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarTitleText": "佳缘婚庆",
     "navigationBarTextStyle": "black"
+  },
+  "tabBar":{
+    "list":[
+      {
+        "pagePath":"pages/index/index",
+        "text":"商品",
+        "iconPath":"/images/huashu-off.png",
+        "selectedIconPath":"/images/huashu-on.png"
+      },
+      {
+        "pagePath": "pages/dingdan/index",
+        "text": "订单",
+        "iconPath":"/images/dingdan-off.png",
+        "selectedIconPath": "/images/dingdan-on.png"
+      }
+    ]
   }
 }
